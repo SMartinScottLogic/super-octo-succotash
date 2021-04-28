@@ -1,0 +1,20 @@
+[package]
+name = "super-octo-succotash"
+version = "0.1.0"
+authors = ["Simon Martin <havvoric@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Recursively walk a directory.
+walkdir = "2.3.1"
+# A lightweight logging facade for Rust
+log = "0.4.8"
+env_logger = "0.7.1"
+# Date and time library for Rust
+chrono = { version = "0.4.11", features=["std"] }
+#An implementation of regular expressions for Rust. This implementation uses finite automata and gua…
+regex = "1.4.2"
+# An XML library in pure Rust
+xml-rs = "0.8.3"
